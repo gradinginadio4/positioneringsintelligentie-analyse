@@ -1,0 +1,203 @@
+<!-- ========================================== -->
+<!-- DUTCH VERSION (Flanders)                   -->
+<!-- Folder: /nl/                               -->
+<!-- File: index.html                           -->
+<!-- ========================================== -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positionele Intelligentie & Asymmetrie Analyse™ | Homieux Media</title>
+    <meta name="description" content="Concurrentie-intelligentiesysteem voor Belgische kantoren. Analyseer Big 4 & Moore druk en optimaliseer uw marktpositionering.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="https://homieuxmedia.com" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <img src="logo-homieux.png" alt="Homieux Media Logo - Terug naar startpagina" class="logo-img">
+            </a>
+            <div class="header-meta">
+                <span class="tagline">Strategisch Intelligence Systeem</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="container">
+            
+            <section id="intro-section" class="section active">
+                <div class="hero-text">
+                    <h1>Structureer Uw Marktpositie.</h1>
+                    <p class="subtitle">Analyseer de operationele efficiëntie van Big 4 en Moore, en optimaliseer uw concurrentievermogen.</p>
+                </div>
+                <div class="value-prop">
+                    <p>Dit positioneringsinstrument modelleert de structuur van de Belgische markt op basis van publieke signalen (wervingspatronen, transparantieregisters, groeiaankondigingen). Geen speculatie, wel strategische modellering.</p>
+                </div>
+                <button class="btn-primary" onclick="app.nextStep()">Start de Positioneringsanalyse</button>
+            </section>
+
+            <section id="step-1" class="section">
+                <div class="progress-bar"><div class="progress-fill" style="width: 20%"></div></div>
+                <h2>1. Uw Primaire Specialisatie</h2>
+                <p class="step-desc">Selecteer uw kerncompetentie voor waardecreatie.</p>
+                <div class="options-grid">
+                    <button class="option-card" onclick="app.selectOption('spec', 'tax_litigation', this)">
+                        <h3>Fiscaal & Geschillen</h3>
+                        <p>Belastingadvies, administratieve procedures, regularisaties.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('spec', 'corporate_ma', this)">
+                        <h3>Corporate & M&A</h3>
+                        <p>Fusies, overnames, herstructureringen, due diligence.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('spec', 'esg_advisory', this)">
+                        <h3>ESG & Compliance</h3>
+                        <p>CSRD-rapportage, duurzaamheidsdue diligence, governance.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('spec', 'audit_assurance', this)">
+                        <h3>Audit & Assurance</h3>
+                        <p>Bedrijfsrevisie, interne audit, risk advisory.</p>
+                    </button>
+                </div>
+            </section>
+
+            <section id="step-2" class="section">
+                <div class="progress-bar"><div class="progress-fill" style="width: 40%"></div></div>
+                <h2>2. Grootte van uw Kantoor</h2>
+                <p class="step-desc">Het aantal professionals bepaalt uw operationele schaalvoordelen.</p>
+                <div class="options-grid">
+                    <button class="option-card" onclick="app.selectOption('size', 'small', this)">
+                        <h3>50 – 100 Professionals</h3>
+                        <p>Wendbare structuur, nichespecialisatie.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('size', 'medium', this)">
+                        <h3>100 – 150 Professionals</h3>
+                        <p>Regionale speler, gediversifieerde portefeuille.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('size', 'large', this)">
+                        <h3>150 – 250 Professionals</h3>
+                        <p>Significante nationale speler, hoge Big 4 blootstelling.</p>
+                    </button>
+                </div>
+            </section>
+
+            <section id="step-3" class="section">
+                <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
+                <h2>3. Internationale Blootstelling</h2>
+                <p class="step-desc">Bepaal de grensoverschrijdende concurrentiedruk.</p>
+                <div class="options-grid">
+                    <button class="option-card" onclick="app.selectOption('intl', 'local', this)">
+                        <h3>Lokale Belgische Markt</h3>
+                        <p>KMO-klanten, lage blootstelling aan Big 4 netwerken.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('intl', 'eu', this)">
+                        <h3>Klanten & Operaties EU</h3>
+                        <p>Grensoverschrijdend advies, DAC7-richtlijn.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('intl', 'global', this)">
+                        <h3>Wereldwijd Bereik</h3>
+                        <p>Multinationale klanten, sterke concurrentie internationale netwerken.</p>
+                    </button>
+                </div>
+            </section>
+
+            <section id="step-4" class="section">
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                <h2>4. Prijspositionering</h2>
+                <p class="step-desc">Hoe positioneert u zich ten opzichte van de markt?</p>
+                <div class="options-grid">
+                    <button class="option-card" onclick="app.selectOption('pricing', 'premium', this)">
+                        <h3>Premium / High-end</h3>
+                        <p>Prijzen boven marktgemiddelde, hoge toegevoegde waarde.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('pricing', 'mid', this)">
+                        <h3>Mid-Market</h3>
+                        <p>Concurrerende prijs-kwaliteitverhouding.</p>
+                    </button>
+                    <button class="option-card" onclick="app.selectOption('pricing', 'volume', this)">
+                        <h3>Volume / Gestandaardiseerd</h3>
+                        <p>Kostenoptimalisatie, hoge volumediensten.</p>
+                    </button>
+                </div>
+            </section>
+
+            <section id="results-section" class="section">
+                <div class="results-header">
+                    <h2>Strategisch Positioneringsrapport</h2>
+                    <p class="disclaimer">*Modellering gebaseerd op publieke marktsignalen (werving, registers, aankondigingen).</p>
+                </div>
+
+                <div class="dashboard">
+                    <div class="score-grid">
+                        <div class="score-card critical">
+                            <span class="score-label">Marktconcurrentie Niveau</span>
+                            <span class="score-value" id="threat-level">Berekenen...</span>
+                            <span class="score-context" id="threat-context">Analyse van Big 4 signalen...</span>
+                        </div>
+                        <div class="score-card opportunity">
+                            <span class="score-label">Operationele Voordelen Index</span>
+                            <span class="score-value" id="asymmetry-index">0/100</span>
+                        </div>
+                        <div class="score-card neutral">
+                            <span class="score-label">Marktconcentratie</span>
+                            <span class="score-value" id="crowding-index">Laag</span>
+                        </div>
+                    </div>
+
+                    <div class="analysis-text">
+                        <h3>Strategische Interpretatie voor de Managing Partner</h3>
+                        <p id="strategic-narrative">Genereren van strategische analyse...</p>
+                    </div>
+
+                    <div class="heatmap-container">
+                        <h3>Service Gap Analyse (Big 4)</h3>
+                        <div class="heatmap" id="service-heatmap"></div>
+                        <p class="heatmap-legend">Gebaseerd op modellering van publieke wervingsdichtheden.</p>
+                    </div>
+
+                    <div class="consortium-blueprint">
+                        <h3>Consortium Structuur Simulatie</h3>
+                        <p>Om schaalvoordelen te benaderen zonder fusie: een strategisch samenwerkingsverband met complementaire spelers.</p>
+                        <div class="archetypes" id="consortium-archetypes"></div>
+                        <p class="model-note">Geïnspireerd op het "Nordic Legal Collective" model (Gedocumenteerd Scandinavisch consortium, 2024).</p>
+                    </div>
+
+                    <div class="cta-container">
+                        <h3>Operationele Implementatie</h3>
+                        <p>Bespreken we hoe deze analyse vertaalt naar concrete structuurverbeteringen?</p>
+                        <a href="https://cal.com/homieux-media/strategisch-kennismakingsgesprek-bespreek-uw-zakelijke-uitdagingen" target="_blank" rel="noopener noreferrer" class="btn-cta">
+                            Plan een Strategisch Gesprek (15 min)
+                        </a>
+                        <p class="cta-note">Geen verplichtingen. Externe marktscan.</p>
+                    </div>
+                </div>
+                
+                <button class="btn-secondary" onclick="app.reset()">Nieuwe Analyse</button>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <p>&copy; 2026 Homieux Media</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://homieuxmedia.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacybeleid</a>
+                <span class="separator">|</span>
+                <a href="https://homieuxmedia.com/terms-of-use" target="_blank" rel="noopener noreferrer">Gebruiksvoorwaarden</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
